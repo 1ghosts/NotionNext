@@ -17,7 +17,7 @@
         "build": "next build",
         "start": "next start",
         "post-build": "next-sitemap --config next-sitemap.config.js",
-        "post-build": "cp -r public/seo/baidu/baidu_verify_codeva-GgGzRzahzU.html ./" 
+        "post-build": "cp -r public/seo/baidu/baidu_verify_codeva-GgGzRzahzU.html ./",
         "export": "next build && next-sitemap --config next-sitemap.config.js && next export",
         "bundle-report": "cross-env ANALYZE=true yarn build"
     },
